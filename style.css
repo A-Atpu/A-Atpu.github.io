@@ -1,0 +1,122 @@
+body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2vw;
+    margin: 0vw;
+}
+
+#logo { /*this is to remove the margin on the top of the header*/
+    margin: 1%;
+    padding: 10%;
+    align-content: center;
+    width: 21vw;
+    height: 15vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: double underline;
+    /*box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw rgb(164, 109, 240);*/
+    /*text-shadow:  #8B4EC4;*/
+    /*background-color: rgb(164, 109, 240);*/
+}
+
+#nav-tabs {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+#nav-tabs > li {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px;
+}
+
+.nav-button {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+
+body > header {
+    /*The > used in betweeen body and header is a child selector*/
+    color: #ffffff;
+    background-color: #e32525;
+    border: black;
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content > div {
+    width: 80%
+}
+
+
+body > footer {
+    /*The > used in betweeen body and header is a child selector*/
+    color: #ffffff;
+    background-color: #e32525;
+    display: flex;
+}
+
+#footer-title {
+    margin: 10px;
+    padding: 5px;
+    align-content: center center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: double underline;    
+}
+
+#footer-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#footer-list > div > li {
+    margin-left: 3vw;
+}
+
+#footer-list > div > li > a {
+    text-decoration: none;
+    color: white;
+    border: 5px 5px;
+}
+
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+
+/*Below described what you need to do to centre the form at the bottom, where the text is enclosed within a block*/
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+/*Next is to change the border of the images, the radius basically tells you how curved the edges are*/
+img {
+    border-radius: 25%;
+}
+
+/* Below indicates how you would change the colour of visited links using this pseudoclass
+a:visited {
+    color: aqua;
+}
+Below shows a pseudo elements whereby the first line of each paragraph will have an extra large font
+p::first-line {
+    font-size: x-large;
+}*/
