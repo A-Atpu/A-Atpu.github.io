@@ -185,8 +185,7 @@ p::first-line {
     display: grid;
     grid-template-areas: 
     "header header"
-    "position-1 position-2"
-    "position-3 position-4"
+    "position-2 position-4"
     ;
     grid-template-columns: 5fr 5fr;
    }
