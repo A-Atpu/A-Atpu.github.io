@@ -61,6 +61,33 @@ body > header {
     width: 80%
 }
 
+#welcome {
+    margin: 1vw 1vh;
+    border: 1px solid red;
+}
+
+blockquote {
+    color: rgb(249, 90, 169);
+    font: bold
+}
+
+#types {
+    list-style: square;
+}
+
+#types > li > a {
+    color: blue;
+    text-decoration: none;
+}
+
+#regions {
+    list-style: square;
+}
+
+#regions > li > a {
+    color: rgb(15, 105, 54);
+    text-decoration: none;
+}
 
 body > footer {
     /*The > used in betweeen body and header is a child selector*/
@@ -101,6 +128,7 @@ body > main article {
 /*Below described what you need to do to centre the form at the bottom, where the text is enclosed within a block*/
 form {
     text-align: center;
+    border: 2px solid #e32525;
 }
 
 h2 {
@@ -120,3 +148,45 @@ Below shows a pseudo elements whereby the first line of each paragraph will have
 p::first-line {
     font-size: x-large;
 }*/
+
+#sign-up {
+    background-color: #e32525;
+    display: flex;
+
+}
+
+#favourites {
+    color:rgb(15, 105, 54);
+    text-align: center;
+    grid-area: header;
+}
+
+#position-1 {
+    padding: 2px;
+    grid-area: position-1;
+}
+
+#position-2 {
+    padding: 2px;
+    grid-area: position-2;
+}
+
+#position-3 {
+    padding: 2px;
+    grid-area: position-3;
+}
+
+#position-4 {
+    padding: 2px;
+    grid-area: position-4;
+}
+
+#grid-container-1 {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "position-1 position-2"
+    "position-3 position-4"
+    ;
+    grid-template-columns: 5fr 5fr;
+   }

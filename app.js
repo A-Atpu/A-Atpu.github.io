@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+/*document.addEventListener("DOMContentLoaded", () => {
 
     const images = document.querySelectorAll("img");
 
@@ -11,4 +11,4 @@ document.addEventListener("DOMContentLoaded", () => {
             image.height = 100;
         })
     }
-})
+})*/

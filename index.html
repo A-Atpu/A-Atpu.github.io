@@ -28,7 +28,7 @@
                 <section>
                     <h4>Pokémon by Type</h4>
                     <nav>
-                        <ul>
+                        <ul id="types">
                             <li><a href="">Water</a></li>
                             <li><a href="">Fire</a></li>
                             <li><a href="">Ground</a></li>
@@ -39,12 +39,16 @@
                     </nav>
                 </section>
                 <section>
-                    <h4>Filter by Category</h4>
+                    <h4>Filter by Regions</h4>
                     <nav>
-                     <ul>
-                        <li><a href="">Saltwater</a></li>
-                        <li><a href="">Freshwater</a></li>
-                        <li><a href="">Tropical</a></li>
+                     <ul id="regions">
+                        <li><a href="">Kanto</a></li>
+                        <li><a href="">Johto</a></li>
+                        <li><a href="">Hoenn</a></li>
+                        <li><a href="">Sinnoh</a></li>
+                        <li><a href="">Unova</a></li>
+                        <li><a href="">Kalos</a></li>
+                        <li><a href="">Alola</a></li>
                      </ul>
                     </nav>
                 </section>
@@ -53,44 +57,48 @@
                 <article>
                     <!--Article's header goes here, and it groups them for the headers of just this article-->
                     <header>
-                        <h2>Here at PokéBase, we aim to give you all the Pokémon knowledge you need, to be the very best!</h2>
-                        <h3>Reading Time: 5 mins</h3>
+                        <h2 id="welcome">Here at PokéBase, we aim to give you all the Pokémon knowledge you need, to be the very best!</h2>
                     </header>
                     <main>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fuga ipsam ab, consequatur, at saepe suscipit aspernatur, aperiam hic tempora molestias praesentium illo aut! Molestiae voluptatum repellat quo ipsum sapiente voluptate, nihil ut nobis quos voluptas quidem alias saepe fugiat quaerat tenetur? Quaerat beatae nam repellendus soluta saepe optio assumenda animi accusamus voluptate nulla! Cumque rerum modi quidem soluta. </p>
                         <blockquote>
-                            "Fish are great" - <cite> Sum, 2024</cite>
+                            "My dream is to become a Pokémon master!" - <cite> Ash Ketchum, 1997</cite>
                         </blockquote>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium necessitatibus minus alias harum recusandae. Aliquam voluptatum, illum alias assumenda sunt ad eum accusantium aliquid quos, blanditiis quisquam! Aperiam veritatis vel magni expedita non voluptatibus fugit, reiciendis doloremque alias beatae suscipit sed repellendus pariatur ut dolorum quo aut earum distinctio labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, aperiam porro dicta repellendus, alias provident blanditiis corporis veritatis quo officia quis doloribus quisquam! Neque iusto porro ducimus?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aliquid aliquam accusamus quia enim ad! Quae explicabo facilis non perferendis fugit corporis dolores quo dolor doloribus enim quasi velit, maxime voluptatibus, nulla unde praesentium, tempora accusamus ipsum esse!</p>
                     </main>
                     <footer>
-                        <h2>Author: A Atpu</h2>
-                        <img src="https://placebear.com/g/100/100" alt="A cute picture of a bear">
-                        <h3>Last Posted: 25.08.2024</h3>
-                        <a href="https://www.brightnetwork.co.uk/dashboard/" target="_blank">Author Profile</a> <!--this is an anchor tag that will take you to a link and between the >< you write what it will show up as on your website -->
                     </footer>
                 </article>
                 <article>
                     <!--Article's header goes here, and it groups them for the headers of just this article-->
-                    <header>
-                        <h2>10 Fun Facts about Fish</h2>
-                        <h3>Reading Time: 5 mins</h3>
-                    </header>
                     <main>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fuga ipsam ab, consequatur, at saepe suscipit aspernatur, aperiam hic tempora molestias praesentium illo aut! Molestiae voluptatum repellat quo ipsum sapiente voluptate, nihil ut nobis quos voluptas quidem alias saepe fugiat quaerat tenetur? Quaerat beatae nam repellendus soluta saepe optio assumenda animi accusamus voluptate nulla! Cumque rerum modi quidem soluta. </p>
-                        <blockquote>
-                            "Fish are great" - <cite> Sum, 2024</cite>
-                        </blockquote>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium necessitatibus minus alias harum recusandae. Aliquam voluptatum, illum alias assumenda sunt ad eum accusantium aliquid quos, blanditiis quisquam! Aperiam veritatis vel magni expedita non voluptatibus fugit, reiciendis doloremque alias beatae suscipit sed repellendus pariatur ut dolorum quo aut earum distinctio labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, aperiam porro dicta repellendus, alias provident blanditiis corporis veritatis quo officia quis doloribus quisquam! Neque iusto porro ducimus?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aliquid aliquam accusamus quia enim ad! Quae explicabo facilis non perferendis fugit corporis dolores quo dolor doloribus enim quasi velit, maxime voluptatibus, nulla unde praesentium, tempora accusamus ipsum esse!</p>
+                        <div id="grid-container-1">
+                            <header id="favourites">
+                                <h2>Top 4 Favourite Pokémon among our users!</h2>
+                            </header>
+                        <div id="position-1">
+                            <nav>
+                                <h3>Charmander</h3>
+                                <img src="https://img.pokemondb.net/artwork/large/charmander.jpg" alt="A cute picture of Charmander" width="100" height="100">
+                            </nav>
+                        </div>
+                        <div id="position-2"></div>
+                            <nav>
+                                <h3>Turtwig</h3>
+                                <img src="https://img.pokemondb.net/artwork/avif/turtwig.avif" alt="A cute picture of Turtwig" width="100" height="100">
+                            </nav>
+                        </div>
+                        <div id="position-3">
+                            <nav>
+                                <h3>Vaporeon</h3>
+                                <img src="https://img.pokemondb.net/artwork/avif/vaporeon.avif" alt="A cute picture of Vaporeon" width="100" height="100">
+                            </nav>
+                        </div>
+                        <div id="position-4">
+                            <nav>
+                                <h3>Ponyta</h3>
+                                <img src="https://img.pokemondb.net/artwork/avif/ponyta.avif" alt="A cute picture of Ponyta" width="100" height="100">
+                            </nav>
+                        </div>
                     </main>
-                    <footer>
-                        <h2>Author: A Atpu</h2>
-                        <img src="https://placebear.com/g/100/100" alt="A cute picture of a bear">
-                        <h3>Last Posted: 25.08.2024</h3>
-                        <a href="https://www.brightnetwork.co.uk/dashboard/" target="_blank">Author Profile</a> <!--this is an anchor tag that will take you to a link and between the >< you write what it will show up as on your website -->
-                    </footer>
                 </article>
                 <article>
                     <!--Article's header goes here, and it groups them for the headers of just this article-->
@@ -115,43 +123,38 @@
                 </article>
             </div>
         </div>
-
-        <hr>
-        <h2>Sign up for our Membership!</h2>
-        <form action="" method="">
-            <!--action = path where we are sending the data. Method = what you do with the data?-->
-            <label for="first_name">First Name: </label>
-            <input type="text" id="first_name" name="first_name" required>
-            <br><br>
-            <label for="last_name">Last Name: </label>
-            <input type="text" id="last_name" name="last_name" required>
-            <!--in between ><tags will be displayed to the used, and then after the for will be what the input is assigned to -->
-            <br><br>
-            <label for="email">Email: </label>
-            <input type="email" name="email" id="email">
-            <br><br>
-            <label for="passwork">Password: </label>
-            <input type="password" name="password" id="password">
-            <br><br>
-            <label for="favourite_pokemon">Favourite Pokémon: </label>
-            <input type="text" id="favourite_pokemon" name="favourite_pokemon">
-            <br><br>
-            <label for="newsletters">Would you like to receive newletters about Pokémon updates? </label>
-            <select name="newsletters" id="newsletters">
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
-            </select>
-            <br><br>
-            <label for="bio">Biography: </label>
-            <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
-            <br><br>
-            <input type="checkbox" id="subscribe" name="subscribe">
-            <label for="subscribe">Subscribe to our Newsletter! </label>
-            <br><br>
-            <input type="submit" value="Send">
-            <!--value given the name of the button that will be pressed-->
-
-        </form>
+        <hr id="sign-up">
+            <h2>Sign up for our Membership!</h2>
+            <form action="" method="">
+                <!--action = path where we are sending the data. Method = what you do with the data?-->
+                <label for="first_name">First Name: </label>
+                <input type="text" id="first_name" name="first_name" required>
+                <br><br>
+                <label for="last_name">Last Name: </label>
+                <input type="text" id="last_name" name="last_name" required>
+                <!--in between ><tags will be displayed to the used, and then after the for will be what the input is assigned to -->
+                <br><br>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email">
+                <br><br>
+                <label for="passwork">Password: </label>
+                <input type="password" name="password" id="password">
+                <br><br>
+                <label for="favourite_pokemon">Favourite Pokémon: </label>
+                <input type="text" id="favourite_pokemon" name="favourite_pokemon">
+                <br><br>
+                <label for="newsletters">Would you like to receive newletters about Pokémon updates? </label>
+                <select name="newsletters" id="newsletters">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+                <br><br>
+                <label for="bio">Tell us why you love Pokémon </label>
+                <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
+                <br><br>
+                <input type="submit" value="Send">
+                <!--value given the name of the button that will be pressed-->
+            </form>
         <hr>
     </main>
     <footer>
