@@ -58,26 +58,42 @@ body > header {
 }
 
 #main-content > div {
-    width: 80%
+    width: 75%
 }
 
 #welcome {
     margin: 1vw 1vh;
-    border: 1px solid red;
+    padding: 2vw 2vh;
+    border-color: #e32525;
+    border-style: double;
+    background-color: rgb(249, 166, 166);
 }
 
 blockquote {
     color: rgb(249, 90, 169);
-    font: bold
+
+}
+
+#types-section {
+    list-style-type: square;
+    background-color: rgb(190, 246, 246);
+    padding: 1vh;
 }
 
 #types {
     list-style: square;
+    background-color: rgb(190, 246, 246);
 }
 
 #types > li > a {
     color: blue;
     text-decoration: none;
+}
+
+#regions-section {
+    list-style-type: square;
+    background-color: rgb(210, 255, 200);
+    padding: 1vh;
 }
 
 #regions {
@@ -211,10 +227,15 @@ p::first-line {
     margin: auto;
 }
 
-#post {
+#post > footer > img {
     display: block;
+    margin: auto;
 }
 
-#post > footer {
-    margin: auto;
+#post > footer > h3 {
+    text-align: center;
+}
+
+#legend {
+    font-size: small;
 }
