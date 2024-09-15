@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: rgb(255, 255, 249);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2vw;
     margin: 0vw;
@@ -183,6 +183,7 @@ p::first-line {
     padding: 2px;
     grid-area: position-3;
     border: 2px solid rgb(137, 56, 2);
+    color: #e32525;
     text-align: center;
     margin: 1px;
 }
@@ -204,3 +205,16 @@ p::first-line {
     ;
     grid-template-columns: 1fr 1fr;
    }
+
+#charizard {
+    display: block;
+    margin: auto;
+}
+
+#post {
+    display: block;
+}
+
+#post > footer {
+    margin: auto;
+}
