@@ -164,29 +164,43 @@ p::first-line {
 #position-1 {
     padding: 2px;
     grid-area: position-1;
+    border: 2px solid gold;
+    text-align: center;
+    color: rgb(157, 134, 4);
+    margin: 1px;
 }
 
 #position-2 {
     padding: 2px;
     grid-area: position-2;
+    border: 2px solid silver;
+    color: rgb(77, 76, 76);
+    text-align: center;
+    margin: 1px;
 }
 
 #position-3 {
     padding: 2px;
     grid-area: position-3;
+    border: 2px solid rgb(137, 56, 2);
+    text-align: center;
+    margin: 1px;
 }
 
 #position-4 {
     padding: 2px;
     grid-area: position-4;
+    border: 2px solid black;
+    text-align: center;
+    margin: 1px;
 }
 
-#grid-container-1 {
+#grid-container {
     display: grid;
     grid-template-areas: 
     "header header"
     "position-1 position-2"
     "position-3 position-4"
     ;
-    grid-template-columns: 5fr 5fr;
+    grid-template-columns: 1fr 1fr;
    }
