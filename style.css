@@ -145,6 +145,10 @@ body > main article {
 form {
     text-align: center;
     border: 2px solid #e32525;
+    border-radius: 10%;
+    background-color: rgb(250, 203, 255);
+    padding: 1%;
+    margin: 1px;
 }
 
 h2 {
